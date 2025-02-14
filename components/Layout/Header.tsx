@@ -32,7 +32,6 @@ const secondaryColor = "#FFFFFF";
 const Header = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
-  // Toggle Sidebar
   const handleToggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
   };
@@ -67,7 +66,7 @@ const Header = () => {
     { text: "Home", route: "/" },
     { text: "About Us", route: "/About" },
     { text: "Services", route: "/Services" },
-    { text: "Contact", route: "/contact" },
+    { text: "Contact", route: "/contact_us" },
   ];
 
   return (

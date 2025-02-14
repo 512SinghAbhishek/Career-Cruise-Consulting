@@ -48,7 +48,7 @@ function Dash_Navbar() {
             position: "fixed",
             left: 0,
             top: 0,
-            paddingTop: "64px", // To avoid overlap with AppBar
+            paddingTop: "64px", 
           }}
         >
           <List>
